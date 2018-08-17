@@ -2,10 +2,10 @@ import * as React from 'react';
 import styledComponents from 'styled-components';
 
 const Nav = styledComponents.nav`
-  height: 2.75rem;
+  height: 3rem;
   font-weight: bold;
-  border-bottom: 1px solid #ccc;
-  background-color: #f8f8f8;
+  background-color: #fff;
+  box-shadow: 0 1px 0 #eceeef, 0 2px 0 hsla(200,9%,93%,.25);
 `;
 
 const FlexContainer = styledComponents.div`
@@ -19,7 +19,7 @@ const LinkWrapper = styledComponents.div`
   display: flex;
   align-items: center;
   flex: 0 0 auto;
-  line-height: 2.75rem;
+  line-height: 3rem;
 `;
 
 const NavAppLink = styledComponents.a`

@@ -4,19 +4,19 @@ import styledComponents from 'styled-components';
 import Header from './Components/Header';
 
 const Container = styledComponents.div`
-  padding: 0 .625rem;
+  padding: 5px 3%;
   margin: 0 auto;
 `;
 
 class App extends React.Component {
   public render() {
     return (
-      <div>
+      <React.Fragment>
         <Header />
         <Container>
           <p>Welcome to Bookshelf! Time to get organized!</p>
         </Container>
-      </div>
+      </React.Fragment>
     );
   }
 }
